@@ -1,0 +1,215 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* body{
+    font-style:italic; 
+} */
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(rgba(255, 52, 2, 0.5), rgba(247, 148, 118, 0.568), rgba(238, 34, 7, 0.5));
+}
+
+.logo {
+    justify-content: right;
+    align-items: center;
+    width: 15%;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: inherit;
+    background-color: none;
+    float: right;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 0 25px 0 25px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav ul li .dropdown-content a {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown .btn {
+    position: relative;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: rgb(19, 17, 17);
+    /* padding: 0 25px 0 25px; */
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown .btn:hover {
+    background-color: inherit;
+}
+
+.dropdown-content {
+    margin-top: 39px;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: all 0.1s ease;
+}
+
+.dropdown:hover .dropdown-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.contant {
+    width: 25%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.contant img {
+    width: 25px;
+    height: 25px;
+}
+
+.contant span {
+    font-size: 30px;
+    padding: 0 10px 0 10px;
+}
+
+.contant a {
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/stock-photo-diamond-ring-on-red-background-banner-2340552739-transformed\ \(1\)\ \(1\).png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    height: 70%;
+    margin-bottom: 60px;
+}
+
+.banner-contant h1 {
+    color: antiquewhite;
+    width: 60%;
+    font-size: 50px;
+}
+
+.banner-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    width: 40%;
+}
+
+.banner-image img {
+    width: 90%;
+    max-width: 500px;
+}
+
+.btn {
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #070707;
+    color: #ffffff;
+    border: 2px solid #070707;
+    padding: 13px 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border: 2px solid #070707;
+}
+
+.btn:hover {
+    background-color: #920707;
+    font-weight: 300;
+}
+
+.containerbox {
+    border: 0 0 5px 0 solid black;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerbox .box {
+    flex-direction: column;
+    display: flex;
+    width: 20%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h4 {
+    margin: 4px;
+    font-size: 24px;
+}
+
+.box h4:hover {
+    color: rgb(190, 127, 8);
+    transform: scale(1.1);
+}
+
+svg:hover {
+    transform: scale(1.03) translateY(6px);
+}
